@@ -28,7 +28,7 @@ RESULT=$(tail -n7 $LOG )                                                        
 if [ {$EXEC} != {$ST_ATUAL} ] ;then                                                     # Se o número atual for maior que o arquivo state.log, envia.
 
 TEXT=" 
-| ODIN - HIDS |
+| OSSEC - HIDS |
 
 $RESULT
 "
